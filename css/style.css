@@ -34,7 +34,8 @@ h2,
 h3,
 h4,
 h5,
-h6 p {
+h6,
+p {
   margin: 0;
 }
 button {
@@ -103,7 +104,6 @@ h2 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 .navigation-link:hover {
   color: #404bbf;
@@ -141,6 +141,7 @@ h2 {
   justify-content: start;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 .navigation {
   display: inline-flex;
@@ -279,7 +280,6 @@ h2 {
 
 .team-prof {
   margin-top: 8px;
-  margin-bottom: 32px;
 }
 
 /**--------------------Portfolio---------------*/
